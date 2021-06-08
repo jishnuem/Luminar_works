@@ -1,0 +1,24 @@
+.main-header{
+    text-align: center;
+    text-decoration: underline;
+    color: aqua;
+}
+.state{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    color: white;
+    background-color: tomato;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    float: left;
+}
+.tvm{
+    border: 1px solid white;
+    background-color: turquoise;
+}
+.ekm{
+    border: 1px solid white;
+    background-color: violet;
+}

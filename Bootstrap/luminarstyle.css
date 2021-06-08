@@ -1,0 +1,42 @@
+body{
+    height: 1000px;
+}
+
+.container-one{
+    
+    background-color: #5e068a;
+    color: white;
+    padding: 4px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+
+}
+.row-1{
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    
+}
+.col-1{
+    float: left;
+}
+
+
+
+<div class="col"></div>
+   <div class="col"></div>
+   <div class="col-lg-3 col-md-12 col-12"><span >Have any questions?9878765434 </span></div>
+   <div class="col"></div>
+   
+   <div class="col"></div>
+   <div class="col"></div>
+   
+   <div class="col-lg-4 col-md-12 col-12"><i class="fas fa-phone"></i> <span>+9878765434</span> <i class="fas fa-envelope"></i> <span>contact@luminartechnolab.com</span></div>
+  <div class="col"></div>
+
+
+  <div class="col-lg-7 col-md-6 col-12">
+  <span style="font-size:12px; margin-left: 170px;" >Have any question? <a href="tel:91 8086651651" style="color: white; text-decoration: none;">+91 8086 651 651</a></span><a href="tel:91 8086651651">
+</a></div>
+<div class="col-lg-5 col-md-6 col-12"><a href="tel:91 8086651651">

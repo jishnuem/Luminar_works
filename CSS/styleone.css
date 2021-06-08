@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Terminal{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    color: white;
+    background-color:white;
+    width: 498px;
+    height: 310px;
+    text-align: center;
+    float: left;
+    
+}
+.one{
+    background-color:blue;
+    height: 270px;
+}
+.two{
+    background-color: red;
+    height: 270px;
+}
+.three{
+    background-color: blue;
+    height: 270px;
+}

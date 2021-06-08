@@ -1,0 +1,43 @@
+body{
+    margin: 0%;
+}
+
+header{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: right;
+}
+header a{
+    text-decoration: none;
+    margin-right: 100px;
+    color: whitesmoke;
+    opacity: 0.5px;
+    transition: 0.5 ease-in-out;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+header a:hover{
+    color: rgb(192, 78, 78);
+    transition: 0.5s ease-in-out;
+}
+
+
+main{
+    background-image: url(imagess/pexels-김-대정-2734421.jpg);
+    height: 97vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(46, 8, 8);
+}
+main h1{
+    mix-blend-mode: overlay;
+}
