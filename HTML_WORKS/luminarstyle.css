@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 40px;
+    background-color: #5e068a ;
+}
+
+header p{
+    color: white;
+    padding: 10px;
+    position: absolute;
+    left: 163px;
+    top: -13px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+header a{
+    color: white;
+    padding: 11px;
+    position: absolute;
+    left: 277px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+header i{
+    color: white;
+}
+ .col-2{
+    font-family: 'Times New Roman', Times, serif;
+}
+.email{
+    margin-left: 756px;
+}
+.phone{
+    margin-left: 643px;
+}
+
+.fa-phone-alt{
+    margin-left: 912px;
+    margin-top: 10px;
+    size: 5px;
+}
+.fa-envelope{
+    margin-left: 93px;
+}
