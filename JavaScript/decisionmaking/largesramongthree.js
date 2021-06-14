@@ -11,3 +11,5 @@ else if(num3>num1 && num3>num2){
 else if(num1==num2 & num1==num3 & num2==num3 ){
     console.log("all are equal");
 }
+num=num1,num2,num3;
+n
