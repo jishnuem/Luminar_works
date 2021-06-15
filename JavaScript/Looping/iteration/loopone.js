@@ -30,7 +30,7 @@
 // console.log(sum);
 
 
-var num=123,rev="",rem=0;
+var num=123,rev="";
 while(num!=0){
     let digit=num%10;
     //console.log(digit);
