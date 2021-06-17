@@ -1,8 +1,8 @@
 for(let i=1;i<=3;i++){
     let str="";
-    for(let j=1; j<=i;j++)
+    for(let j=1; j<=i;j++)           
     {
-        str+=i;
+        //str+=i;
     }
-    console.log(str);
+    console.log(j);
 }
