@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 2000px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url(./images/pexels-lisa-918327.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.banner .content h2{
+    font-size: 3rem;
+    font-weight: 2000;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.banner .content p
+    {
+        font-size: 1.1rem;
+        color: #fff;
+        margin-top: 20px;
+    }
+
+.btn{
+    margin-top: 20px;
+    font-size: 1.6rem;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 00.5s;
+}
+.btn:hover{
+    letter-spacing: 5px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+header .navigation{
+    position: relative;
+    display: flex;
+}
+header .navigation li{
+    margin: 20px;
+    list-style: none;
+}
+header .navigation li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+}
+header .navigation li a:hover{
+    background-color: red;
+    padding: 6px 12px;
+    letter-spacing: 2px;
+}

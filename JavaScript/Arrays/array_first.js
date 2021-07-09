@@ -1,8 +1,10 @@
 var expenses=[23333, 34323, 45465, 32165,17897]
 
-for(let amouunt of expenses){
-    if(amouunt>25000)
-    console.log(amouunt);
+//for(let amouunt of expenses)
+expenses.sort((num1,num2)=>num2-num1)
+{
+    //if(amouunt>25000)
+    console.log(expenses);
 }
 
 // expenses[3]+=3000

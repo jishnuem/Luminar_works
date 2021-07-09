@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>heloo</h1>
+    <h1>document</h1>
+<h2 >hiii</h2>
+    <ul>
+        <li >  document.getElementByTagName</li>
+        <li id="one">document.getElementById</li>
+        <li class="lit">document.getElementById</li>
+        <li class="lit">document.getElementById</li>
+    </ul>
+</body>
+<script>
+    var hone=document.getElementsByTagName("h1");
+    for(let tag of hone){
+        tag.style.color="red";
+    }
+    var two=document.getElementById("htwo")
+    two.style.color="cyan"
+
+
+    var list=document.getElementsByClassName(".lit")
+    for(let ls of list){
+        ls.style.color="yellow"
+     }
+//    // document.getElementById("one").style.color="red"
+//    var li=document.querySelectorAll("li").style.color="yellow"
+
+
+//    var htwo=document.querySelector("h2")
+//    htwo.textContent="hi hello";
+
+//    htwo.innerHTML="<em>hi hello</em>"
+//    htwo.style.color="red"
+</script>
+    
+</html>

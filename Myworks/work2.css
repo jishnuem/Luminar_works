@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 1000px;
+}
+p{
+    font-weight: 300;
+    color:#111;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/pexels-lisa-918327.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner .content{
+    max-width: 900px;
+    text-align: center;
+}
+.banner .content h2{
+    font-size: 5rem;
+    color: #fff;
+}
+.banner .content p{
+    font-size: 1rem;
+    color: #fff;
+}
+ .btn{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ff0157;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+ .btn:hover{
+    letter-spacing: 5px;
+
+}
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+header .logo{
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    text-decoration: none;
+}
+header .navigation{
+    position: relative;
+    display: flex;
+}
+header .navigation li{
+    list-style: none;
+    margin-left: 50px;
+}
+header .navigation li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 600;
+}
+header .navigation li a:hover{
+    background-color: red;
+    padding: 6px 14px;
+    letter-spacing: 2px;
+}
+section{
+    padding: 100px;
+}
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+.row .col50{
+    position: relative;
+    width: 48%;
+}
+.titletext{
+    color: #111;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.titletext span{
+    font-size: 6rem;
+    color: red;
+    font-weight: 700;
+}
+.row .col50 .imgbx{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+.row .col50 .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu .content{
+    display: flex;
+    justify-content: center;
+    flex-direction:row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.menu .content .box{
+    width: 550px;
+    margin: 20px;
+    border: 5px solid black;
+
+}
+.menu .content .box .imgbx{
+
+    position: relative;
+    width: 100%;
+    height: 300px;
+
+}
+.menu .content .box .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.expert .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.expert .content .box{
+    width: 250px;
+   margin: 15px;
+}
+.expert .content .box .imgBx{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.expert .content .box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+
+}
+
+.testimonial{
+    background-image: url(images/pexels-tejas-prajapati-586744.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.testimonial .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+
+    
+}
+.testimonial .content .box{
+    width: 350px;
+    margin: 20px;
+    padding: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonial .content .box .imgBx{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.testimonial .content .box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.testimonial .titletext{
+    color: white;
+}
+.testimonial .title  p{
+    color: white;
+}
+.testimonial .content .box .text{
+    text-align: center;
+}
+.testimonial .content .box .text p{
+    
+}
+
+.contact{
+    background-color: rgb(214, 181, 181);
+}
+.contactform{
+    padding: 70px 50px;
+    background-color: rgb(250, 246, 246);
+    max-width: 500px;
+    margin-top: 40px;
+}
+.contactform h3{
+    color: #111;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea{
+    width: 100%;
+    border: 1px solid rgb(184, 175, 175);
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+.contactform .inputbox input[type="submit"]{
+    font-size: 1rem;
+    color: #fff;
+    background-color: red;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    display: inline-block;
+    max-width: 100%;
+    font-weight: 500;
+    border: none;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.copyright{
+    padding: 10px 40px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+}
+.copyright p{
+    color: #333;
+}
+.copyright a{
+    text-decoration: none;
+    color: red;
+    font-weight: 700;
+}
+
+@media (max-width:992px){
+  header{
+      padding: 10px 20px;
+  }  
+  header .navigation{
+      display: none;
+  }
+  .menutoggle{
+      position: relative;
+    width: 40px;
+    height: 40px;
+      background-image: url(./images/menu.png);
+      background-size: 30px;
+      background-repeat: no-repeat;
+      background-position: center;
+      cursor: pointer;
+      background-color: rgb(10, 1, 1);
+      
+
+  }
+  .menutoggle .active{
+    background-image: url(./images/CLOSE-131994911256789607.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-color: rgb(10, 1, 1);
+
+  }
+  section{
+      padding: 20px;
+  }
+  .banner .content h2{
+      font-size: 3rem;
+      color: white#fff;
+  }
+   .row{
+      flex-direction: column;
+  }
+   .row .col50{
+      position: relative;
+      width: 100%;
+  }
+  .row .col50 .imgbx{
+      position: relative;
+      width: 100%;
+      height: 300px;
+      margin-top: 20px;
+  }
+}

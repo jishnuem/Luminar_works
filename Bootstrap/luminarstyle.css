@@ -1,17 +1,21 @@
 body{
-    height: 3600px;
+    height: 2600px;
     color: white;
     
 }
 
-.container-one{
+.header-top{
+    height: 25px;
+
     
     background-color: #5e068a;
     color: white;
-    padding: 4px;
+    font-size: 16px;
+    /* position: relative; */
+    /* padding: 4px;
     display: flex;
     justify-content:flex-end;
-    align-items: center;
+    align-items: center; */
 
 }
 /* .row-1{
@@ -20,6 +24,8 @@ body{
     align-items: flex-end;
     
 } */
+
+
 .col-1{
     float: left;
 }
@@ -122,21 +128,85 @@ body{
 }
 .newletter{
     background-color: #5e068a14;
+    margin-top: 50px;
 }
-.newletter .row img{
+.img-wat{
     margin-left: 244px;
     margin-top: 60px;
     padding-top: 20px;
+    
 }
-.row h3{
+
+.img-full img{
+    max-width: 100%;
+    padding-left: 143px;
+    margin-top: 4px;
+    margin-bottom: 28px;
+}
+/* .row img{
+    margin-top: 30px;
+} */
+.f-heading{
     flex-shrink: 0;
     width: 100%;
     max-width: 100%;
     padding-left: 318px;
-    margin-top: -43px;
+    margin-top: -53px;
 }
 .row a{
     text-decoration: none;
+}
+
+.footer-widget-area{
+    
+    background-color: #333;
+}
+.single-footer-widget h4{
+    font-weight: 700;
+    padding-top: 27px;
+    color: white;
+    line-height: 19px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.footer-list{
+    text-decoration: none;
+    list-style: none;
+    margin-left: -28px;
+    color: white;
+    padding-top: 25px;
+}
+.footer-list li a{
+    padding-top: 5px;
+    color: white;
+    display: block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.get-in-touch h4{
+    padding-top: 27px;
+    font-weight:700;
+    line-height: 19px;
+}
+.box{
+    padding-top: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.get-in-touch{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.get-in-touch a{
+    color: white;
+    display: block;
+    padding-top:5px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.get-in-touch > span{
+    padding-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 11px;
 }
 
 
